@@ -1,0 +1,9 @@
+io\slurm\cource\currency\schema\ValCurs$Valute.class
+io\slurm\cource\currency\client\HttpCurrencyDateRateClient.class
+io\slurm\cource\currency\controller\CurrencyController.class
+io\slurm\cource\currency\CurrencyApplication.class
+io\slurm\cource\currency\config\CurrencyClientCfg.class
+io\slurm\cource\currency\schema\ObjectFactory.class
+io\slurm\cource\currency\sevice\CbrService.class
+io\slurm\cource\currency\client\CbrCurrencyRateClient.class
+io\slurm\cource\currency\schema\ValCurs.class
