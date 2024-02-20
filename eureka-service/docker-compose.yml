@@ -1,0 +1,77 @@
+version: '2.1'
+
+services:
+  eureka-discovery-service:
+    image: eureka-discovery-service
+    container_name: slurm-eureka-discovery-service
+    ports:
+      - "8761:8761"
+    networks:
+      slurm:
+        aliases:
+          - "eureka"
+
+  config-service:
+    image: config-service
+    container_name: slurm-config-service
+    depends_on:
+      - eureka-discovery-service
+    ports:
+      - "8888:8888"
+    environment:
+      EUREKA_HOST: eureka
+    networks:
+      slurm:
+        aliases:
+          - "config"
+
+  currency-rate-service-1:
+    image: currency-rate-service
+    container_name: slurm-currency-rate-service-1
+    depends_on:
+      - eureka-discovery-service
+      - config-service
+    environment:
+      EUREKA_HOST: eureka
+      CFG_HOST: config
+    ports:
+      - "8085:8085"
+    networks:
+      slurm:
+        aliases:
+          - "currency-rate-service-1"
+
+  currency-rate-service-2:
+    image: currency-rate-service
+    container_name: slurm-currency-rate-service-2
+    depends_on:
+      - eureka-discovery-service
+      - config-service
+    environment:
+      EUREKA_HOST: eureka
+      CFG_HOST: config
+    ports:
+      - "8086:8086"
+    networks:
+      slurm:
+        aliases:
+          - "currency-rate-service-2"
+
+
+  gateway-service:
+    image: gateway-service
+    container_name: slurm-gateway-service
+    depends_on:
+      - eureka-discovery-service
+      - config-service
+    environment:
+      EUREKA_HOST: eureka
+      CFG_HOST: config
+      CURRENCY_URL: lb://currency-rate-service
+    ports:
+      - "8580:8080"
+
+
+networks:
+  slurm:
+    driver: bridge

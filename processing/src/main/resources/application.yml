@@ -11,7 +11,7 @@ cloud:
 
 spring:
   application:
-    name: processing
+    name: exchange-processing-service
 
   jpa:
     database: POSTGRESQL
@@ -19,7 +19,7 @@ spring:
     hibernate:
       ddl-auto: none
   datasource:
-    url: jdbc:postgresql://localhost:5432/processing
+    url: jdbc:postgresql://${cloud.db-host}:5432/processing
     username: postgres
     password: postgres
     driverClassName: org.postgresql.Driver
@@ -27,7 +27,7 @@ spring:
   flyway:
     enabled: true
     locations: classpath:db
-    url: jdbc:postgresql://localhost:5432/processing
+    url: jdbc:postgresql://${cloud.db-host}:5432/processing
     user: postgres
     password: postgres
 

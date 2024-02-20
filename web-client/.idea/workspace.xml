@@ -4,11 +4,59 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc6c9f4b-ebcc-4f4a-8127-b2fc1811a54c" name="Changes" comment="" />
+    <list default="true" id="bc6c9f4b-ebcc-4f4a-8127-b2fc1811a54c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../auth-service/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auth-service/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config-service/src/main/resources/cfg/currency-rate-service-cloud.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../currency/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../currency/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../currency/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deploy/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eureka-service/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway-service/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../history/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../history/docker-container-run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../history/docker-image-build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../history/src/main/kotlin/io/slurm/cource/history/config/CloudConfig.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../history/src/main/kotlin/io/slurm/cource/history/config/ResourceServerConfiguration.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../history/src/main/kotlin/io/slurm/cource/history/controller/AccountHistoryController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../history/src/main/kotlin/io/slurm/cource/history/model/AccountEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../history/src/main/kotlin/io/slurm/cource/history/model/Operation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../history/src/main/kotlin/io/slurm/cource/history/repository/AccountEventRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../history/src/main/kotlin/io/slurm/cource/history/service/AccountEventKafkaListener.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../history/src/main/kotlin/io/slurm/cource/history/service/AccountEventService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../history/src/main/kotlin/io/slurm/cource/history/service/ResolveUserService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../history/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../history/src/main/resources/db/migration/V1__Operation_enum.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../history/src/main/resources/db/migration/V2__Event_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../processing/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../auth-service/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../currency/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../currency/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../currency/docker-container-run-1.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../currency/docker-container-run-1.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../currency/docker-container-run-2.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../currency/docker-container-run-2.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../currency/docker-container-run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../currency/docker-container-run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../currency/docker-image-build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../currency/docker-image-build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../currency/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../currency/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../currency/src/main/resources/application-cloud.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../currency/src/main/resources/application-cloud.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../currency/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../currency/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deploy/postgres.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../deploy/postgres.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-service/docker-container-run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-service/docker-container-run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-service/docker-image-build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-service/docker-image-build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway-service/docker-container-run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-service/docker-container-run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processing/docker-container-run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../processing/docker-container-run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processing/docker-image-build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../processing/docker-image-build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processing/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../processing/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -16,9 +64,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2cP0rHVgRVv9MGh3t7IMyR6hwys" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,6 +76,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/java_micro_service/web-client",
     "node.js.detected.package.eslint": "true",
@@ -57,6 +106,9 @@
       <option name="presentableId" value="Default" />
       <updated>1707998104280</updated>
       <workItem from="1707998105539" duration="731000" />
+      <workItem from="1708005268911" duration="67000" />
+      <workItem from="1708073186824" duration="965000" />
+      <workItem from="1708415989964" duration="599000" />
     </task>
     <servers />
   </component>

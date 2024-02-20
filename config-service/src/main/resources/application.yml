@@ -1,0 +1,26 @@
+server:
+  port: 8888
+
+cloud:
+  eureka-host: localhost
+
+spring:
+  application:
+    name: config-service
+
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/cfg
+
+
+  profiles:
+    active: native
+
+eureka:
+  client:
+    enabled: true
+    serviceUrl:
+      defaultZone: http://${cloud.eureka-host}:8761/eureka
+

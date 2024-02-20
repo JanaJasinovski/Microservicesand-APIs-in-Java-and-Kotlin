@@ -19,11 +19,11 @@ spring:
           enabled: true
           lower-case-service-id: true
       routes:
-        - id: currency
+        - id: currency-rate-service
           uri: ${cloud.currency-service-url}
           predicates:
             - Path=/currency/**
-        - id: processing
+        - id: exchange-processing-service
           uri: ${cloud.processing-service-url}
           predicates:
             - Path=/processing/**

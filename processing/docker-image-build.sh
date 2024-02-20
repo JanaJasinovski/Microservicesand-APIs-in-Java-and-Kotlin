@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build --no-cache . -t processing
+docker build --no-cache . -t exchange-processing-service

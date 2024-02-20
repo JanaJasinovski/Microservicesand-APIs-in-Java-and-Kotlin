@@ -1,12 +1,13 @@
 server:
   port: 8085
 
-cloud:
-  eureka-host: localhost
-
 spring:
-  application:
-    name: currency
+  zipkin:
+    enabled: false
+    baseUrl: http://${cloud.zipkin-host}:9411
+  sleuth:
+    sampler:
+      percentage: 1
 
 eureka:
   client:
@@ -17,3 +18,11 @@ eureka:
 currency:
   client:
     url: "http://cbr.ru/scripts/XML_daily.asp"
+
+management:
+  endpoints:
+    enable-by-default: true
+
+    web:
+      exposure:
+        include: "*"

@@ -4,11 +4,59 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af1792cc-01c0-4443-b98b-c14d52b92744" name="Changes" comment="" />
+    <list default="true" id="af1792cc-01c0-4443-b98b-c14d52b92744" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config-service/src/main/resources/cfg/currency-rate-service-cloud.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../currency/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../currency/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../currency/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deploy/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eureka-service/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway-service/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../history/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../history/docker-container-run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../history/docker-image-build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../history/src/main/kotlin/io/slurm/cource/history/config/CloudConfig.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../history/src/main/kotlin/io/slurm/cource/history/config/ResourceServerConfiguration.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../history/src/main/kotlin/io/slurm/cource/history/controller/AccountHistoryController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../history/src/main/kotlin/io/slurm/cource/history/model/AccountEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../history/src/main/kotlin/io/slurm/cource/history/model/Operation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../history/src/main/kotlin/io/slurm/cource/history/repository/AccountEventRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../history/src/main/kotlin/io/slurm/cource/history/service/AccountEventKafkaListener.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../history/src/main/kotlin/io/slurm/cource/history/service/AccountEventService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../history/src/main/kotlin/io/slurm/cource/history/service/ResolveUserService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../history/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../history/src/main/resources/db/migration/V1__Operation_enum.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../history/src/main/resources/db/migration/V2__Event_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../processing/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../currency/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../currency/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../currency/docker-container-run-1.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../currency/docker-container-run-1.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../currency/docker-container-run-2.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../currency/docker-container-run-2.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../currency/docker-container-run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../currency/docker-container-run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../currency/docker-image-build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../currency/docker-image-build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../currency/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../currency/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../currency/src/main/resources/application-cloud.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../currency/src/main/resources/application-cloud.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../currency/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../currency/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deploy/postgres.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../deploy/postgres.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-service/docker-container-run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-service/docker-container-run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-service/docker-image-build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-service/docker-image-build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway-service/docker-container-run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-service/docker-container-run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processing/docker-container-run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../processing/docker-container-run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processing/docker-image-build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../processing/docker-image-build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processing/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../processing/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web-client/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
@@ -26,9 +74,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2cOwNIT6e8OxhlJOq9kv0woG2Xd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,10 +84,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.auth-service [clean].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/java_micro_service/auth-service/src/main/java/io/slurm/cource/authservice",
+    "last_opened_file_path": "D:/java_micro_service/eureka-service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -89,6 +139,8 @@
       <option name="presentableId" value="Default" />
       <updated>1707995891510</updated>
       <workItem from="1707995892764" duration="2851000" />
+      <workItem from="1708073168949" duration="1232000" />
+      <workItem from="1708415956282" duration="1351000" />
     </task>
     <servers />
   </component>
